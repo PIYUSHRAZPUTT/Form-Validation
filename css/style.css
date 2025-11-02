@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(20, 145, 145);
+    height: 100vh;
+    padding-top: 20px;
+}
+
+/* styling of container */
+.container {
+    height: 500px;
+    width: 350px;
+    /* border: 2px solid black; */
+    margin: auto;
+    /* background-color: rgba(151, 116, 73, 0.603); */
+    text-align: center;
+    /* padding: 10px; */
+}
+
+/* styling of form */
+/* .form {
+} */
+
+/* styling of label tag */
+.formLabel {
+    text-align: left;
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* styling of input tag */
+.formInput {
+    width: 100%;
+    padding:7px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
+/* styling of span tag */
+.formError {
+    width: 100%;
+    color: red;
+}
+/* styling of button */
+#btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 13px;
+    margin-left: 0;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    border: none;
+}

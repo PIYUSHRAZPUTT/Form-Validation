@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation using JavaScript</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Please! Fill the form</h2>
+        <form action="/action.php" class="form" name="myForm" onsubmit="return formValidation()" method="post">
+            <div id="username">
+                <label for="usernameInput" class="formLabel">UserName:</label>
+                <input type="text" id="usernameInput" name="username" class="formInput"
+                    placeholder="Enter your userName" required>
+                <b><span class="formError"></span></b>
+            </div>
+
+            <div id="email">
+                <label for="emailInput" class="formLabel">Email:</label>
+                <input type="email" id="emailInput" name="email" class="formInput" placeholder="Enter your email"
+                    required>
+                <b><span class="formError"></span></b>
+            </div>
+
+            <div id="phone">
+                <label for="phoneInput" class="formLabel">Phone No:</label>
+                <input type="phone" id="PhoneInput" name="phone" class="formInput" placeholder="Enter your contact no."
+                    required>
+                <b><span class="formError"></span></b>
+            </div>
+            <div id="password">
+                <label for="passwordInput" class="formLabel">Password:</label>
+                <input type="password" id="passwordInput" name="password" class="formInput"
+                    placeholder="Enter your password" required>
+                <b><span class="formError"></span></b>
+            </div>
+            <div id="cpassword">
+                <label for="cpasswordInput" class="formLabel">Confirm Password:</label>
+                <input type="password" id="cpasswordInput" name="cpassword" class="formInput"
+                    placeholder="Confirm your password" required>
+                <b><span class="formError"></span></b>
+            </div>
+            <input type="submit" id="btn" value="Submit">
+        </form>
+    </div>
+    <script src="./JavaScript/script.js"></script>
+</body>
+
+</html>
