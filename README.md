@@ -43,7 +43,7 @@ Form-Validation/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/Form-Validation.git
+   https://github.com/PIYUSHRAZPUTT/Form-Validation
    
 2. **Open the project folder**
    - cd Form-Validation
