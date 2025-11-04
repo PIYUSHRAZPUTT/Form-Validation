@@ -48,7 +48,7 @@ Form-Validation/
 2. **Open the project folder**
    - cd Form-Validation
    
-4. **Run the project**
+3. **Run the project**
   - Open index.html in your browser
   - Fill out the form fields to test validation
 
